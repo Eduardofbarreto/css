@@ -4,12 +4,20 @@ body{
 }
 
 .container{
+    width: 400px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     border:2px solid black;
+    background-color: yellow;
 }
 
 div{
     padding: 20px;
     border:1px solid black;
+    text-align: center;
+    background-color: rgb(82, 240, 9);
+    color: blue;
+    font-weight: 700;
+    text-decoration: underline;
+    
 }

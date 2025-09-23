@@ -4,14 +4,16 @@ body{
 }
 
 .container{
-    width: 400px;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content:space-evenly;
     border:2px solid black;
     background-color: yellow;
+    gap: 10px;
 }
 
 div{
+    margin: 10px;
     padding: 20px;
     border:1px solid black;
     text-align: center;
@@ -19,5 +21,14 @@ div{
     color: blue;
     font-weight: 700;
     text-decoration: underline;
-    
+}
+
+p{
+    margin: 10px;
+    padding: 20px;
+    border:2px solid black;
+    line-height: 25px;
+    letter-spacing: 1px;
+    word-spacing: 15px;
+    color:green;
 }

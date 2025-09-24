@@ -1,7 +1,7 @@
 .container{
     background-color: #cccccc;
     display:flex;
-    width: 400px;
+    width: 600px;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
     justify-content:space-around;

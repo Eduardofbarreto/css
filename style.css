@@ -9,6 +9,7 @@ body{
     flex-direction: column-reverse;
     border:2px solid black;
     background-color: yellow;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
 }
 
 div{
@@ -19,5 +20,7 @@ div{
     color: blue;
     font-weight: 700;
     text-decoration: underline;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+    gap:10px;
     
 }
